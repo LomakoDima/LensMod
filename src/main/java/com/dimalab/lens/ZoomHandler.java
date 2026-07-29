@@ -94,9 +94,7 @@ public final class ZoomHandler {
         toggleZoom = false;
         zooming = false;
 
-        while (KeyBindings.ZOOM.consumeClick()) {
-            // очищаем очередь нажатий
-        }
+        while (KeyBindings.ZOOM.consumeClick()) {}
     }
 
     @SubscribeEvent
