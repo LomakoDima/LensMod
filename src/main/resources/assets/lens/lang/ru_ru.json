@@ -1,0 +1,15 @@
+{
+  "key.categories.lens": "Lens",
+  "key.lens.zoom": "Приближение",
+
+  "config.lens.defaultZoom": "Масштаб по умолчанию",
+  "config.lens.minZoom": "Минимальный масштаб",
+  "config.lens.maxZoom": "Максимальный масштаб",
+  "config.lens.zoomStep": "Шаг изменения масштаба",
+  "config.lens.smoothing": "Скорость анимации приближения",
+  "config.lens.sensitivityMultiplier": "Множитель чувствительности",
+  "config.lens.smoothZoom": "Плавное приближение",
+  "config.lens.reduceSensitivity": "Уменьшать чувствительность мыши",
+  "config.lens.autoSensitivity": "Автоматически изменять чувствительность",
+  "config.lens.showHud": "Показывать HUD масштаба"
+}

@@ -1,0 +1,15 @@
+{
+  "key.categories.lens": "Lens",
+  "key.lens.zoom": "Zoom",
+
+  "config.lens.defaultZoom": "Default Zoom",
+  "config.lens.minZoom": "Minimum Zoom",
+  "config.lens.maxZoom": "Maximum Zoom",
+  "config.lens.zoomStep": "Zoom Step",
+  "config.lens.smoothing": "Smooth Zoom Speed",
+  "config.lens.sensitivityMultiplier": "Sensitivity Multiplier",
+  "config.lens.smoothZoom": "Enable Smooth Zoom",
+  "config.lens.reduceSensitivity": "Reduce Mouse Sensitivity",
+  "config.lens.autoSensitivity": "Automatic Sensitivity",
+  "config.lens.showHud": "Show Zoom HUD"
+}

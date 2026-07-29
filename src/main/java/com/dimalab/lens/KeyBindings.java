@@ -13,10 +13,10 @@ import org.lwjgl.glfw.GLFW;
 )
 public final class KeyBindings {
 
-    public static final String CATEGORY = "key.categories.zoomify";
+    public static final String CATEGORY = "key.categories.lens";
 
     public static final KeyMapping ZOOM = new KeyMapping(
-            "key.zoomify.zoom",
+            "key.lens.zoom",
             InputConstants.Type.KEYSYM,
             GLFW.GLFW_KEY_C,
             CATEGORY
