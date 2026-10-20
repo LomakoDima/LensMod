@@ -4,6 +4,12 @@ on:
   push:
     branches:
       - "**"
+    tags:
+      - "**"
+  pull_request_target:
+    types: [opened, closed]
+  release:
+    types: [published]
 
 permissions:
   contents: read
@@ -11,11 +17,12 @@ permissions:
 jobs:
   publish:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 15
     steps:
       - name: Publish DevLog
         uses: LomakoDima/pushlog-bot@main
         env:
+          GITHUB_TOKEN: ${{ github.token }}
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
           TELEGRAM_MESSAGE_THREAD_ID: ${{ secrets.TELEGRAM_MESSAGE_THREAD_ID }}
